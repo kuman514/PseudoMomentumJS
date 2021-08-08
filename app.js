@@ -4,13 +4,9 @@ const link = document.querySelector('#link');
 
 function onLoginSubmit(event) {
   event.preventDefault();
-  console.log(event);
-}
-
-function onLinkClick(event) {
-  event.preventDefault();
-  console.log(event);
-  alert('clicked link');
+  const username = loginInput.value;
+  loginForm.classList.add('hidden');
+  console.log(`Hello, ${username}!`);
 }
 
 loginForm.addEventListener('submit', onLoginSubmit);
