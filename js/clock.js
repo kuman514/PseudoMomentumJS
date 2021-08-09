@@ -1,3 +1,8 @@
 const clock = document.querySelector('#clock');
 
-clock.innerText = 'clock';
+function paintDate() {
+  clock.innerText = Date();
+}
+
+paintDate();
+setInterval(paintDate, 1000);
