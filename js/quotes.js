@@ -47,7 +47,6 @@ const author = document.querySelector('#quote span:last-child');
 
 function paintQuote() {
   const index = Math.ceil(Math.random() * quotes.length) - 1;
-  console.log(index);
   quote.innerText = quotes[index].quote;
   author.innerText = `- ${quotes[index].author}`;
 }
