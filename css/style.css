@@ -22,4 +22,6 @@ main {
   align-items: center;
   text-align: center;
   flex-direction: column;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
 }
