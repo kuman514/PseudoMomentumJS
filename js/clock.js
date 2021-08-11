@@ -15,10 +15,5 @@ function paintDate() {
   clock.innerText = `${year}년 ${month}월 ${day}일 ${dayNames[dayName]}요일 ${hour}:${minute}:${second}`;
 }
 
-function sayHello() {
-  console.log('Hello');
-}
-
 paintDate();
 setInterval(paintDate, 1000);
-setTimeout(sayHello, 2000);
