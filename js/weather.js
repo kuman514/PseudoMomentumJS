@@ -1,4 +1,4 @@
-const API_KEY = '0897b62f843bb23cebb7ac69eecced88';
+const API_KEY = 'No weather feature due to API key security issues. Use yours, not mine.';
 const area = document.querySelector('#weather span:first-child');
 const weather = document.querySelector('#weather span:last-child');
 
