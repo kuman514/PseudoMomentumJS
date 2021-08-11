@@ -9,21 +9,22 @@
   </head>
   <body>
     <main>
+      <h2 id="clock">현재 시간이 JavaScript를 통해 이 곳에 표시됩니다.</h2>
+
       <form id="login-form">
         <input type="text" placeholder="What is your name?" />
         <input type="submit" value="Log In" />
       </form>
       
-      <h2 id="clock">현재 시간이 JavaScript를 통해 이 곳에 표시됩니다.</h2>
-      
-      <h1 id="greeting" class="hidden"></h1>
-  
-      <form id="todo-form">
-        <input type="text" placeholder="Write TODO and press SAVE" required />
-        <input type="submit" value="SAVE" />
-      </form>
-      <ul id="todo-list"></ul>
-      
+      <section id="after-login" class="hidden">
+        <h1 id="greeting"></h1>
+        <form id="todo-form">
+          <input type="text" placeholder="Write TODO and press SAVE" required />
+          <input type="submit" value="SAVE" />
+        </form>
+        <ul id="todo-list"></ul>
+      </section>
+
       <div id="quote">
         <span></span>
         <span></span>
