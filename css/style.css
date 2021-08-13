@@ -25,3 +25,19 @@ main {
   background: rgba(0, 0, 0, 0.65);
   color: white;
 }
+
+ul {
+  text-align: left;
+}
+
+button {
+  all: unset;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 2px;
+  transition: all 80ms linear;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.5);
+}
