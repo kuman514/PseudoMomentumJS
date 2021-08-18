@@ -44,6 +44,9 @@ function paintTodo(newTodo) {
 
 function handleToDoSubmit(event) {
   event.preventDefault();
+  if (localStorage.getItem(USERNAME_KEY) === null) {
+    return;
+  }
   const newTodo = {
     id: Date.now(),
     text: todoInput.value
