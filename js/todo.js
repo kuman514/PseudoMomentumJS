@@ -44,7 +44,6 @@ function paintTodo(newTodo) {
 
 function handleToDoSubmit(event) {
   event.preventDefault();
-  console.log(todoInput.value);
   const newTodo = {
     id: Date.now(),
     text: todoInput.value
